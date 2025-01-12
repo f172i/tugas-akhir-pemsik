@@ -36,9 +36,7 @@ const AdminLayout = ({ children }) => {
     <div className="flex flex-col min-h-screen">
       <header className="bg-black p-2 ">
         <div className="flex items-center mx-auto justify-between w-2/3">
-          <p className="text-white text-sm font-bold">
-            Siaga gunung berapi
-          </p>
+          <p className="text-white text-sm font-bold">BGM Indonesia</p>
           <button
             className="bg-black text-white px-4 py-2 rounded text-sm"
             onClick={handleLogout}
@@ -67,7 +65,7 @@ const AdminLayout = ({ children }) => {
         <div className="flex-1 flex flex-col p-10">{children}</div>
       </div>
       <footer className="bg-black text-white p-2 text-center text-sm">
-        &copy; 2025 Berita
+        &copy; @ 2024 BGM Indonesia
       </footer>
     </div>
   );

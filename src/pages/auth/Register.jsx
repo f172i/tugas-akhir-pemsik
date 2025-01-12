@@ -1,4 +1,4 @@
-gimport { useState } from "react";
+import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux"; // Pastikan 'useSelector' diimpor dari 'react-redux'
 import { registerUser } from "../../redux/slice/authSlice"; // Impor action register
 import Swal from "sweetalert2"; // Impor SweetAlert2
